@@ -57,5 +57,6 @@ npx medusa develop --host 0.0.0.0
 ```
 frontend
 ```bash
+cd my-medusa-store-storefront
 npm run dev
 ```
