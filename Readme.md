@@ -52,6 +52,7 @@ medusa --version
 ---
 backend
 ```bash
+cd my-medusa-store
 npx medusa develop --host 0.0.0.0
 ```
 frontend
