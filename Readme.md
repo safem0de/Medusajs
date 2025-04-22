@@ -34,7 +34,6 @@ npx create-medusa-app@latest my-medusa-store
 
 #### 3. Config medusa project
 ```bash
-D:\Nextjs\Medusajs>npx create-medusa-app@latest my-medusa-store
 ? Would you like to create the Next.js storefront? You can also create it later Yes
 ? Enter your Postgres username <follow docker-compose>
 ? Enter your Postgres password <follow docker-compose>
