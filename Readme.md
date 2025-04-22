@@ -40,3 +40,22 @@ D:\Nextjs\Medusajs>npx create-medusa-app@latest my-medusa-store
 ? Enter your Postgres password <follow docker-compose>
 ? Enter your Postgres users database name <follow docker-compose>
 ```
+
+#### 4. install medusa CLI (global)
+```bash
+npm install -g @medusajs/medusa-cli
+```
+check version
+
+```bash
+medusa --version
+```
+---
+backend
+```bash
+npx medusa develop --host 0.0.0.0
+```
+frontend
+```bash
+npm run dev
+```
