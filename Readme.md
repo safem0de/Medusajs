@@ -68,9 +68,9 @@ npm run dev
 npx medusa user -e admin@example.com -p supersecret
 ```
 store
-email: admin@example.com
-pass: supersecret
+* email: admin@example.com
+* pass: supersecret
 
 frontstore
-email: customer@example.com
-pass: supersecret
+* email: customer@example.com
+* pass: supersecret
