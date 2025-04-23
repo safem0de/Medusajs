@@ -42,7 +42,7 @@ npx create-medusa-app@latest my-medusa-store
 
 #### 4. install medusa CLI (global)
 ```bash
-npm install -g @medusajs/medusa-cli
+npm install @medusajs/medusa-cli --save-dev
 ```
 check version
 
@@ -53,9 +53,23 @@ medusa --version
 backend
 ```bash
 cd my-medusa-store
-npx medusa develop --host 0.0.0.0
+medusa develop --host 0.0.0.0
+or
+
 ```
 frontend
 ```bash
 npm run dev
 ```
+
+### 5. By pass for admin (backend)
+```bash
+npx medusa user -e admin@example.com -p supersecret
+```
+store
+email: admin@example.com
+pass: supersecret
+
+frontstore
+email: customer@example.com
+pass: supersecret
