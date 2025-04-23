@@ -59,6 +59,7 @@ or
 ```
 frontend
 ```bash
+cd my-medusa-store-storefront
 npm run dev
 ```
 
