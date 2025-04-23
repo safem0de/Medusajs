@@ -53,7 +53,7 @@ medusa --version
 backend
 ```bash
 cd my-medusa-store
-medusa develop --host 0.0.0.0
+npx medusa develop --host 0.0.0.0
 or
 
 ```
