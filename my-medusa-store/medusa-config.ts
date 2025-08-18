@@ -18,17 +18,5 @@ module.exports = defineConfig({
     {
       resolve: "./src/modules/blog",
     },
-    {
-      resolve: "./src/modules/sale",
-    },
-    {
-      resolve: "./src/modules/product",
-    },
-    {
-      resolve: "./src/modules/member",
-    },
-    {
-      resolve: "./src/modules/promotion",
-    },
   ]
 })
